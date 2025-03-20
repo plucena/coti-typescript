@@ -1,0 +1,14 @@
+{
+    "name": "coti-sdk-typescript-examples",
+    "version": "0.1.0",
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "@coti-io/coti-sdk-typescript": "^1.0.4",
+        "@types/node": "^22.13.4",
+        "dotenv": "^16.4.5",
+        "ethers": "^6.12.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.5"
+    }
+}
