@@ -37,7 +37,7 @@ export async function onboardAccount(provider: Provider, key: string) {
     await wallet.generateOrRecoverAes()
     console.log("******* wallet AES "+ wallet.getUserOnboardInfo()?.aesKey);
     setEnvValue("USER_KEY", wallet.getUserOnboardInfo()?.aesKey!)
-    setEnvValue("ADRESS", wallet.address)
+    setEnvValue("ADDRESS", wallet.address)
 
     
     console.log("************* Onboarded! created user key and saved into .env file *************")
